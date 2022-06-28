@@ -72,7 +72,6 @@ public class Main {
     	    		}
     	    	}
     	    	for(String item: jsonData) {
-    	    		System.out.println("Items " + item);
     	    		finalString += (item);
     	    		if(item.equals(jsonData.get(jsonData.size()-1))) {
     	    			break;
