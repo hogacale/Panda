@@ -67,7 +67,7 @@ public class Main {
 //    	    		Choose whether to add the data to the dataset or not
     	    		float percentage = Float.parseFloat(tempData[1]) / Float.parseFloat(tempData[2]);
 //    	    		System.out.println("Percentage is " + percentage);
-    	    		if(percentage <= 0.25) {
+    	    		if(percentage < 0.25) {
     	    			jsonData.add("{\"name\":\"" + tempData[0] + "\",\"Stock\":\"" + tempData[1] + "\",\"Capacity\":\""+tempData[2]+"\",\"ID\":\""+tempData[3]+"\"}");
     	    		}
     	    	}
